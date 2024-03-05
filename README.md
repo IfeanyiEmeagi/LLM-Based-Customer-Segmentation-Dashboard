@@ -4,8 +4,10 @@ The tokenized data are clustered using Kmeans algorithm to identify common featu
 
 The steps implemented in the project are as follows:
 - Tokenize each complete observation.
-- Identify outliers using OD.
-- 
+- Identify outliers using ECOD.
+- Dimensionality reduction. The dimension of the dataset were reduced to 2 and 3 using PRINCE python library for easy visualization.
+- Contribution of each features in each cluster.
+- The insights obtained were explained in a table format.
 
 The application can be check out [here](https://llm-based-customer-segmentation-dashboard-123.streamlit.app/).
 The screen shot of the appliocation and the insights derived is show below. The insights were shared in a table format.
